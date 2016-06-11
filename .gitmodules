@@ -1,0 +1,3 @@
+[submodule "packages/ell:blaze-styleguide"]
+	path = packages/ell:blaze-styleguide
+	url = https://github.com/elelay/meteor-blaze-styleguide.git

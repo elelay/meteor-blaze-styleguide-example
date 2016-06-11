@@ -1,0 +1,3 @@
+SG.configure({
+		basePath: "/styleguide"
+});

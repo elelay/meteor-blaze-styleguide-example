@@ -1,0 +1,18 @@
+<template name="myTemplate">
+	<div class="container">
+		<div class="row">
+			<div class="page-header">
+				<h1>Look at that button!</h1>
+
+				<p>Astonishing, how one can click on it and all that...</p>
+				<p>{{> mybuttonS}}</p>
+			</div>
+		</div>
+		{{#if isDev}}
+			<div class="row">
+				<p>Yes, I use an in-app style catalog:
+				<a class="btn btn-primary btn-xl" href="/styleguide/catalogue">See it here</a></p>
+			</div>
+		{{/if}}
+	</div>
+</template>

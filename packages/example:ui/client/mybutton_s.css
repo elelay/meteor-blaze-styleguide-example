@@ -1,0 +1,11 @@
+.btn-interactive {
+	background: rgb(238, 255, 51);
+	color: green;
+	font-weight: bold;
+}
+
+.btn-interactive[disabled] {
+	background: #CCC;
+	color: #555;
+	text-decoration: line-through;
+}
